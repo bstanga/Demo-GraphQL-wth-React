@@ -1,0 +1,21 @@
+{
+	"name": "graphql-server",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/bogdanstanga/Demo-GraphQL-wth-React",
+	"author": "Bogdan Stanga <bogydaci@gmail.com>",
+	"license": "MIT",
+	"private": false,
+	"dependencies": {
+		"express": "^4.16.4",
+		"express-graphql": "^0.6.12",
+		"graphql": "^14.0.2"
+	},
+	"scripts": {
+		"dev": "nodemon index.js",
+		"start": "node index.js"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.4"
+	}
+}
